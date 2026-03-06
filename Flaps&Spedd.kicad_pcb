@@ -1979,7 +1979,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 0 1.05 0)
+			(at 0 -1.27 0)
 			(layer "F.Fab")
 			(uuid "dc6c5661-928d-4836-a7e2-0637a715ae10")
 			(effects
