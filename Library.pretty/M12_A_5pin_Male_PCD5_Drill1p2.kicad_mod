@@ -1,0 +1,129 @@
+(footprint "M12_A_5pin_Male_PCD5_Drill1p2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "M12 A-coded 5-pin male, 4x on PCD 5.0mm @45deg + center, drill 1.2mm")
+	(tags "M12 A-coded 5pin male THT PCD5 drill1.2")
+	(property "Reference" "J?"
+		(at 0 -6 0)
+		(layer "F.SilkS")
+		(uuid "ef8a635e-2d7f-4c72-b722-daeb08f24255")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "M12_A_5"
+		(at 0 6 0)
+		(layer "F.Fab")
+		(uuid "f21f6081-7b31-4753-99a4-47cbde7436f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48f07334-bf76-4f92-90aa-0018a11354e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb876e08-00ca-46aa-8393-5db92789791f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2ca9fb35-b9cb-476e-804a-9df04a854a79")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "af587372-5cf5-4f74-a00e-fea18e0c72d5")
+	)
+	(fp_text user "1"
+		(at 2.9 2.9 0)
+		(layer "F.SilkS")
+		(uuid "9a89dea2-fc30-49b4-bbbb-b071de2a344a")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 1.7678 1.7678)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9dc0dd04-d151-4d4d-9e82-b3d33ada3687")
+	)
+	(pad "2" thru_hole circle
+		(at -1.7678 1.7678)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0d2d660b-1a3a-4394-ad81-decf4c51f79c")
+	)
+	(pad "3" thru_hole circle
+		(at -1.7678 -1.7678)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e227a4af-897f-4f5f-bd50-e97866ac19ad")
+	)
+	(pad "4" thru_hole circle
+		(at 1.7678 -1.7678)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d8fdab7c-4b3d-46c2-aef4-c2d33ffee2f4")
+	)
+	(pad "5" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "60b32081-2abc-4c0b-a2e6-46d3d3881cc4")
+	)
+	(embedded_fonts no)
+)
