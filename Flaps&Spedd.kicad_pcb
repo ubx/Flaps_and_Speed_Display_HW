@@ -190,7 +190,7 @@
 		(path "/fa84f747-55c9-48be-9078-aea7b7d8a45f")
 		(sheetname "/")
 		(sheetfile "Flaps&Spedd.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 1.16 0.81)
 			(end 1.16 0.745)
@@ -444,7 +444,7 @@
 		(path "/6c576934-bd19-4ed9-ab10-8515e1496812")
 		(sheetname "/")
 		(sheetfile "Flaps&Spedd.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 1.16 0.81)
 			(end 1.16 0.745)
@@ -698,7 +698,7 @@
 		(path "/cb69a034-2ef5-4989-8098-b76a6bf23b81")
 		(sheetname "/")
 		(sheetfile "Flaps&Spedd.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 1.16 0.81)
 			(end 1.16 0.745)
@@ -952,7 +952,7 @@
 		(path "/4f624030-097f-4789-9ff6-e87700117e7c")
 		(sheetname "/")
 		(sheetfile "Flaps&Spedd.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 1.16 0.81)
 			(end 1.16 0.745)
@@ -1205,7 +1205,7 @@
 		(path "/4ef3f5dc-095e-4201-bc1c-a73ee1395944")
 		(sheetname "/")
 		(sheetfile "Flaps&Spedd.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -1.16 0.81)
 			(end -0.666708 0.81)
@@ -1660,7 +1660,7 @@
 		(path "/63efb03c-616d-4b98-b59c-2de4a726956c")
 		(sheetname "/")
 		(sheetfile "Flaps&Spedd.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -1.16 0.81)
 			(end -0.666708 0.81)
@@ -1912,7 +1912,7 @@
 		(path "/6e53f2d0-1ec6-4d4d-9703-79d9ad729c65")
 		(sheetname "/")
 		(sheetfile "Flaps&Spedd.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 6 0)
@@ -2623,7 +2623,7 @@
 		(path "/72813602-c386-4c42-8a0d-de80398b75ea")
 		(sheetname "/")
 		(sheetfile "Flaps&Spedd.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 1.16 0.81)
 			(end 1.16 0.745)
@@ -3072,7 +3072,7 @@
 		(path "/4d5914d0-538a-42e9-a366-f9e860b9d31e")
 		(sheetname "/")
 		(sheetfile "Flaps&Spedd.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 1.16 0.81)
 			(end 1.16 0.745)
@@ -3324,7 +3324,7 @@
 		(path "/3da389af-3187-4963-99d0-ef9a00a69d68")
 		(sheetname "/")
 		(sheetfile "Flaps&Spedd.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 6 0)
@@ -3644,7 +3644,7 @@
 		(path "/23dddefb-2af1-4dec-b55d-9f67861b9ec2")
 		(sheetname "/")
 		(sheetfile "Flaps&Spedd.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 1.16 0.81)
 			(end 1.16 0.745)
@@ -3897,7 +3897,7 @@
 		(path "/0dfa3a1d-f655-4697-894c-38fb9cd293a9")
 		(sheetname "/")
 		(sheetfile "Flaps&Spedd.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -1.16 0.81)
 			(end -0.666708 0.81)
@@ -4236,7 +4236,7 @@
 		(path "/0c7def15-5b85-4076-89ab-e01b4b8940e9")
 		(sheetname "/")
 		(sheetfile "Flaps&Spedd.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -1.16 0.81)
 			(end -0.666708 0.81)
@@ -4490,7 +4490,7 @@
 		(path "/f7ddce4c-0407-4fee-9a02-119b0f53286a")
 		(sheetname "/")
 		(sheetfile "Flaps&Spedd.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 1.16 0.81)
 			(end 1.16 0.745)
@@ -5533,28 +5533,12 @@
 		(uuid "8d9a9fe2-48ff-4902-bb92-4d495f885475")
 	)
 	(segment
-		(start 66.2354 68.8371)
-		(end 66.2354 67.7378)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 13)
-		(uuid "3721f05f-95f6-482c-8ca1-9f677e8c86b7")
-	)
-	(segment
 		(start 80.7122 67.7378)
 		(end 67.3347 67.7378)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 13)
 		(uuid "37238698-59d1-4342-beb5-dd55582a073b")
-	)
-	(segment
-		(start 66.2354 67.7378)
-		(end 66.2354 68.8371)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 13)
-		(uuid "75e46688-2af8-4364-b744-29c45470a34b")
 	)
 	(segment
 		(start 67.3347 67.7378)
@@ -5571,22 +5555,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 13)
 		(uuid "ca92001c-c5b1-41f1-9a7e-057cb4e73156")
-	)
-	(segment
-		(start 66.2354 68.8371)
-		(end 66.2354 67.7378)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 13)
-		(uuid "1148fa64-9072-417a-90fe-c4ff24cbaf15")
-	)
-	(segment
-		(start 66.2354 67.7378)
-		(end 66.2354 68.8371)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 13)
-		(uuid "26fd6949-531e-4726-ba6c-d2cad38faee5")
 	)
 	(segment
 		(start 79.376 69.074)
