@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - run: sudo apt-get install -y ngspice poppler-utils
-      - uses: aklofas/kicad-happy@v1
+      - uses: ubx/kicad-happy@fix/power-rails-dict-handling
         id: analysis
       - uses: thollander/actions-comment-pull-request@v3
         if: github.event_name == 'pull_request'
