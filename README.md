@@ -17,3 +17,4 @@ This hardware module is designed to run the following software:
 - [ ] Review PCB toward a more professional layout
 - [ ] Crate a PCBWay ready BOM
 - [ ] Add more professional displays connector
+- [ ] Test kicad-happy ???
