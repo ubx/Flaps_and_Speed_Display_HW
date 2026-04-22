@@ -1,6 +1,8 @@
 # .github/workflows/kicad-review.yml
 name: KiCad Design Review
+
 on:
+  workflow_dispatch:  # Add this to enable manual trigger
   push:
     paths: ['**/*.kicad_sch', '**/*.kicad_pcb']
   pull_request:
