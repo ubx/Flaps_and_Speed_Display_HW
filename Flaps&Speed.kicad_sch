@@ -3538,7 +3538,7 @@
 			(uuid "1738f40b-2e7e-4a3e-b312-bb6e137196b5")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "#PWR010")
 					(unit 1)
@@ -3616,7 +3616,7 @@
 			(uuid "e2d70822-a47b-4903-b34d-6102b08c6cfa")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "#PWR07")
 					(unit 1)
@@ -3694,7 +3694,7 @@
 			(uuid "4e5d7834-d914-44fc-9a50-b1840a54a42a")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "#PWR01")
 					(unit 1)
@@ -3768,6 +3768,72 @@
 				)
 			)
 		)
+		(property "Supplier Part" ""
+			(at 138.43 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Qty" "1"
+			(at 138.43 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Your Instructions / Notes" ""
+			(at 138.43 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "smd"
+			(at 138.43 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM31C5C1H101JA01L"
+			(at 138.43 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 138.43 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5f1f0fd5-2017-4e31-aa1b-b442b880a7c8")
 		)
@@ -3775,7 +3841,7 @@
 			(uuid "4cbaec9a-1574-47f2-b05c-92cd8b8de7c1")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "C3")
 					(unit 1)
@@ -3853,7 +3919,7 @@
 			(uuid "f91a4cd8-496e-4455-be6e-b1255690ebb1")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "#PWR02")
 					(unit 1)
@@ -3930,7 +3996,7 @@
 			(uuid "9405da5b-e16d-4697-bf50-bedd02af4898")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "#PWR08")
 					(unit 1)
@@ -4003,6 +4069,28 @@
 				)
 			)
 		)
+		(property "Your Instructions / Notes" ""
+			(at 229.87 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 229.87 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "189ad0bf-aee1-4f46-92c3-76bf61203604")
 		)
@@ -4019,7 +4107,7 @@
 			(uuid "846d4f30-783a-4aef-8c49-18862fa47f36")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "J2")
 					(unit 1)
@@ -4033,7 +4121,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4092,6 +4180,28 @@
 				)
 			)
 		)
+		(property "Your Instructions / Notes" ""
+			(at 100.33 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 100.33 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "ef1a9995-92eb-4c99-a522-f8cc62a71c51")
 		)
@@ -4105,7 +4215,7 @@
 			(uuid "f7da94fc-10b4-4900-9f54-ec1144e0b899")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "J4")
 					(unit 1)
@@ -4183,7 +4293,7 @@
 			(uuid "5664df0e-58d0-4c8a-882e-b8dda0efe3b6")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "#PWR013")
 					(unit 1)
@@ -4204,7 +4314,7 @@
 		(fields_autoplaced yes)
 		(uuid "574e447d-990b-440d-a763-66a2d5c44395")
 		(property "Reference" "U1"
-			(at 118.9833 104.648 0)
+			(at 118.9833 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4215,7 +4325,7 @@
 			)
 		)
 		(property "Value" "SN65HVD230"
-			(at 118.9833 107.188 0)
+			(at 118.9833 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4258,6 +4368,95 @@
 				)
 			)
 		)
+		(property "Qty" "1"
+			(at 116.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SN65HVD230DR"
+			(at 116.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 116.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 116.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 116.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" ""
+			(at 118.9833 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Your Instructions / Notes" ""
+			(at 116.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "smd"
+			(at 116.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "ad9fc890-dd81-429c-9c18-3cd7af92ba10")
 		)
@@ -4283,7 +4482,7 @@
 			(uuid "a8a94e14-af42-40a8-8419-7fa2b7df7ee9")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "U1")
 					(unit 1)
@@ -4356,6 +4555,28 @@
 				)
 			)
 		)
+		(property "Your Instructions / Notes" ""
+			(at 207.01 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 207.01 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0a4b902c-3d54-4068-8927-f39dd181c533")
 		)
@@ -4363,7 +4584,7 @@
 			(uuid "72ee277b-9fb2-42e4-8ac9-d1971d0c1ac1")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "JP1")
 					(unit 1)
@@ -4438,6 +4659,72 @@
 				)
 			)
 		)
+		(property "Supplier Part" ""
+			(at 130.81 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Qty" "1"
+			(at 130.81 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Your Instructions / Notes" ""
+			(at 130.81 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "smd"
+			(at 130.81 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM31CR71H104KA01L"
+			(at 130.81 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 130.81 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f19d0b29-a920-4119-be02-5f0ead4932ad")
 		)
@@ -4445,7 +4732,7 @@
 			(uuid "92b5aa0e-e862-444e-b617-0678e0050d60")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "C1")
 					(unit 1)
@@ -4518,6 +4805,28 @@
 				)
 			)
 		)
+		(property "Your Instructions / Notes" ""
+			(at 199.39 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 199.39 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "189ad0bf-aee1-4f46-92c3-76bf61203605")
 		)
@@ -4534,7 +4843,7 @@
 			(uuid "846d4f30-783a-4aef-8c49-18862fa47f37")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "J1")
 					(unit 1)
@@ -4612,7 +4921,7 @@
 			(uuid "f91a4cd8-496e-4455-be6e-b1255690ebb2")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "#PWR04")
 					(unit 1)
@@ -4690,7 +4999,7 @@
 			(uuid "f91a4cd8-496e-4455-be6e-b1255690ebb3")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "#PWR05")
 					(unit 1)
@@ -4766,6 +5075,72 @@
 				)
 			)
 		)
+		(property "Supplier Part" ""
+			(at 99.06 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Qty" "1"
+			(at 99.06 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Your Instructions / Notes" ""
+			(at 99.06 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "smd"
+			(at 99.06 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC1206FR-0710KL"
+			(at 99.06 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 99.06 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "675a36e5-fc70-48d4-841d-b45f72b0a540")
 		)
@@ -4773,7 +5148,7 @@
 			(uuid "995e5b64-4d0b-4644-82db-090c6feac41f")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "R1")
 					(unit 1)
@@ -4787,7 +5162,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4845,6 +5220,28 @@
 				)
 			)
 		)
+		(property "Your Instructions / Notes" ""
+			(at 48.26 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 48.26 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "17de5899-5212-45b0-a4a6-120cfeb54675")
 		)
@@ -4870,7 +5267,7 @@
 			(uuid "ad10f10d-d8a2-4e1e-8b87-dacbb9d32283")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "J3")
 					(unit 1)
@@ -4947,7 +5344,7 @@
 			(uuid "9405da5b-e16d-4697-bf50-bedd02af4899")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "#PWR09")
 					(unit 1)
@@ -5025,7 +5422,7 @@
 			(uuid "402cd86a-b661-46d0-b918-4a97cc09cdc9")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "#PWR012")
 					(unit 1)
@@ -5103,7 +5500,7 @@
 			(uuid "f91a4cd8-496e-4455-be6e-b1255690ebb4")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "#PWR03")
 					(unit 1)
@@ -5181,7 +5578,7 @@
 			(uuid "e2d70822-a47b-4903-b34d-6102b08c6cfb")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "#PWR06")
 					(unit 1)
@@ -5256,6 +5653,72 @@
 				)
 			)
 		)
+		(property "Supplier Part" ""
+			(at 214.63 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Qty" "1"
+			(at 214.63 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Your Instructions / Notes" ""
+			(at 214.63 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "smd"
+			(at 214.63 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC1206FR-07120RL"
+			(at 214.63 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 214.63 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5c36026d-97fa-47c8-ab28-e59dfb6359a2")
 		)
@@ -5263,7 +5726,7 @@
 			(uuid "384f9de8-eaae-4739-9a8d-4b95eaa372e3")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "R2")
 					(unit 1)
@@ -5337,6 +5800,72 @@
 				)
 			)
 		)
+		(property "Supplier Part" ""
+			(at 130.81 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Qty" "1"
+			(at 130.81 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Your Instructions / Notes" ""
+			(at 130.81 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "smd"
+			(at 130.81 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM31C5C1H101JA01L"
+			(at 130.81 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 130.81 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4999bd78-a8d5-47af-a28d-79cb1d25f0d6")
 		)
@@ -5344,7 +5873,7 @@
 			(uuid "980b1b22-0454-4e93-a283-c771d3c40336")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "C2")
 					(unit 1)
@@ -5408,7 +5937,73 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Signal Line Common Mode Chokes/Filters"
+			(at 146.05 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 146.05 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Qty" "1"
+			(at 146.05 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Your Instructions / Notes" ""
+			(at 146.05 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "smd"
+			(at 146.05 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 146.05 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ACT1210-220-2P-TL00"
 			(at 146.05 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -5432,7 +6027,7 @@
 			(uuid "0f53daa9-f91b-44de-8cab-8a467835ff4f")
 		)
 		(instances
-			(project "Flaps&Spedd"
+			(project "Flaps&Speed"
 				(path "/1185a7f9-fc4d-4094-9b80-4309e9fa786b"
 					(reference "L1")
 					(unit 1)
