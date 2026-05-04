@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.36,
-          "width": 0.318
+          "drill": 2.1,
+          "height": 2.1,
+          "width": 2.1
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -490,7 +490,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Flaps&Spedd.kicad_pro",
+    "filename": "Flaps&Speed.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -545,18 +545,144 @@
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
-      "field_delimiter": ",",
+      "field_delimiter": "\t",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "CSV",
+      "name": "TSV",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
-      "string_delimiter": "\""
+      "string_delimiter": ""
     },
-    "bom_presets": [],
+    "bom_presets": [
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "Qty",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Manufacturer",
+            "name": "Manufacturer",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "MPN",
+            "name": "MPN",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Do Not Place",
+            "name": "${DNP}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from BOM",
+            "name": "${EXCLUDE_FROM_BOM}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from Board",
+            "name": "${EXCLUDE_FROM_BOARD}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from Simulation",
+            "name": "${EXCLUDE_FROM_SIM}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Supplier",
+            "name": "Supplier",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Supplier Part",
+            "name": "Supplier Part",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Assembly",
+            "name": "Assembly",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Your Instructions / Notes",
+            "name": "Your Instructions / Notes",
+            "show": false
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": false,
+        "include_excluded_from_bom": true,
+        "name": "PCBWay",
+        "sort_asc": true,
+        "sort_field": "Your Instructions / Notes"
+      }
+    ],
     "bom_settings": {
       "exclude_dnp": false,
       "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": true
+        },
         {
           "group_by": false,
           "label": "Reference",
@@ -570,27 +696,27 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Qty",
+          "name": "Qty",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Board",
-          "name": "${EXCLUDE_FROM_BOARD}",
           "show": true
         },
         {
@@ -601,29 +727,77 @@
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "label": "Description",
+          "name": "Description",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Description",
-          "name": "Description",
+          "label": "Datasheet",
+          "name": "Datasheet",
           "show": false
         },
         {
           "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
+          "label": "Do Not Place",
+          "name": "${DNP}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Part",
+          "name": "Supplier Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Assembly",
+          "name": "Assembly",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Your Instructions / Notes",
+          "name": "Your Instructions / Notes",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
           "show": false
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
+      "group_symbols": false,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Your Instructions / Notes"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -669,8 +843,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Flaps&Spedd.kicad_sch",
-        "name": "Flaps&Spedd",
+        "filename": "Flaps&Speed.kicad_sch",
+        "name": "Flaps&Speed",
         "uuid": "1185a7f9-fc4d-4094-9b80-4309e9fa786b"
       }
     ],
@@ -680,7 +854,7 @@
   "sheets": [
     [
       "1185a7f9-fc4d-4094-9b80-4309e9fa786b",
-      "Flaps&Spedd"
+      "Flaps&Speed"
     ]
   ],
   "text_variables": {},

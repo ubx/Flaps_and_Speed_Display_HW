@@ -1,0 +1,8 @@
+#	Reference	Qty	Manufacturer	MPN	Value	Footprint	Description	Exclude from BOM	Supplier	Assembly
+1	C1	1	Murata	GRM31CR71H104KA01L	100nF	Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder	Unpolarized capacitor			
+2	C2	1	Murata	GRM31C5C1H101JA01L	100pF	Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder	Unpolarized capacitor			
+3	C3	1	Murata	GRM31C5C1H101JA01L	100pF	Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder	Unpolarized capacitor			
+4	L1	1	TDK	ACT1210-220-2P-TL00	ACT1210-220-2P-TL00	ACT1210_TDK	Signal Line Common Mode Chokes/Filters			
+5	R1	1	Yageo	RC1206FR-0710KL	10K	Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder	Resistor			
+6	R2	1	Yageo	RC1206FR-07120RL	120	Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder	Resistor			
+7	U1	1	Texas Instruments	SN65HVD230DR	SN65HVD230	Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8			
