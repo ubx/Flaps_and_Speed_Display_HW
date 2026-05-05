@@ -15,6 +15,6 @@ This hardware module is designed to run the following software:
 
 ## Todo
 - [ ] Review PCB toward a more professional layout
-- [ ] Crate a PCBWay ready BOM
+- [x] Crate a PCBWay ready BOM
 - [ ] Add more professional displays connector
 - [ ] Test kicad-happy ???

@@ -3834,6 +3834,17 @@
 				)
 			)
 		)
+		(property "Assembly" "yes"
+			(at 138.43 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5f1f0fd5-2017-4e31-aa1b-b442b880a7c8")
 		)
@@ -4091,6 +4102,17 @@
 				)
 			)
 		)
+		(property "Assembly" "no"
+			(at 229.87 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "189ad0bf-aee1-4f46-92c3-76bf61203604")
 		)
@@ -4192,6 +4214,17 @@
 			)
 		)
 		(property "Type" ""
+			(at 100.33 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "no"
 			(at 100.33 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4423,7 +4456,7 @@
 				)
 			)
 		)
-		(property "Assembly" ""
+		(property "Assembly" "yes"
 			(at 118.9833 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4567,6 +4600,17 @@
 			)
 		)
 		(property "Type" ""
+			(at 207.01 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "no"
 			(at 207.01 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4725,6 +4769,17 @@
 				)
 			)
 		)
+		(property "Assembly" "yes"
+			(at 130.81 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f19d0b29-a920-4119-be02-5f0ead4932ad")
 		)
@@ -4817,6 +4872,17 @@
 			)
 		)
 		(property "Type" ""
+			(at 199.39 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "no"
 			(at 199.39 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -5141,6 +5207,17 @@
 				)
 			)
 		)
+		(property "Assembly" "yes"
+			(at 99.06 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "675a36e5-fc70-48d4-841d-b45f72b0a540")
 		)
@@ -5232,6 +5309,17 @@
 			)
 		)
 		(property "Type" ""
+			(at 48.26 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "no"
 			(at 48.26 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5719,6 +5807,17 @@
 				)
 			)
 		)
+		(property "Assembly" "yes"
+			(at 214.63 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5c36026d-97fa-47c8-ab28-e59dfb6359a2")
 		)
@@ -5856,6 +5955,17 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
+			(at 130.81 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "yes"
 			(at 130.81 127 0)
 			(hide yes)
 			(show_name no)
@@ -6004,6 +6114,17 @@
 			)
 		)
 		(property "MPN" "ACT1210-220-2P-TL00"
+			(at 146.05 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "yes"
 			(at 146.05 113.03 0)
 			(hide yes)
 			(show_name no)
