@@ -14,7 +14,7 @@ This hardware module is designed to run the following software:
 [Flaps and Speed Display](https://github.com/ubx/Flaps_and_Speed_Display)
 
 ## Todo
-- [ ] Review PCB toward a more professional layout
+- [x] Review PCB toward a more professional layout
 - [x] Crate a PCBWay ready BOM
 - [ ] Add more professional displays connector
 - [ ] Test kicad-happy ???
